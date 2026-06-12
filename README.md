@@ -27,9 +27,19 @@ When it's evening notification time (you can change these in settings later, def
 - Changing or adapting to watch language
 - Other datas
   
-## Supported devices  
+## Devices  
   
-- Garmin Forerunner 165
+|Device name|Status|Version|
+|------|------|------|
+|ForeRunner 165|SUPPORTED|TEST 0.1|
+|ForeRunner 55|PLANNED|-|
+  
+## Installation  
+  
+1. Please go to ![Releases](https://github.com/Thekorzeremi/EWIQ/releases) and download PRG package (Garmin PKG format) for your device.  
+2. Plug your device into your computer. If asks, type your code on watch.  
+3. Open file explorer and go to GarminWatch_InternalStorage/GARMIN/Apps and drag PRG here.  
+4. Enjoy !  
   
 ## License
 This project is licensed under the GNU General Public License v3.0 — see the [LICENSE](LICENSE) file for details.
