@@ -54,7 +54,10 @@ class EWIQView extends WatchUi.View {
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(cx, cy, Graphics.FONT_SMALL,
-            "Votre rapport\ndu soir est\ndisponible",
+            "Bonsoir !",
+            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(cx, cy + 75, Graphics.FONT_XTINY,
+            "Appuyer sur start",
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
@@ -113,10 +116,11 @@ class EWIQView extends WatchUi.View {
         var floors = (info.floorsClimbed != null) ? info.floorsClimbed : 0;
         var goal = (info.floorsClimbedGoal != null && info.floorsClimbedGoal > 0)
             ? info.floorsClimbedGoal : 1;
+        var pct = (floors * 100 / goal);
 
         drawMetricPage(dc, "ETAGES",
             floors.toString(),
-            "objectif " + goal,
+            pct + "% de " + goal,
             floors.toFloat() / goal,
             COLOR_FLOORS);
     }

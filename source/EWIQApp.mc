@@ -27,8 +27,11 @@ class EWIQApp extends Application.AppBase {
         AppBase.initialize();
     }
 
-    function getInitialView() as [WatchUi.Views] or [WatchUi.Views, WatchUi.InputDelegates] {
+    function onStart(state as Dictionary?) as Void {
         Background.registerForTemporalEvent(new Time.Duration(5 * 60));
+      }
+
+    function getInitialView() as [WatchUi.Views] or [WatchUi.Views, WatchUi.InputDelegates] {
         var view = new EWIQView();
         return [view, new EWIQDelegate(view)];
     }
