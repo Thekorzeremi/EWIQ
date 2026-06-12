@@ -2,7 +2,7 @@
 
 Evening Widget IQ is a Monkey C program for garmin watches to bring evening-report-like functionnality from high-end garmin to all compatible models
   
-## informations  
+## Informations  
   
 When it's evening notification time (you can change these in settings later, default 8pm), report automatically shows on your watch with these informations :  
   
@@ -16,7 +16,7 @@ When it's evening notification time (you can change these in settings later, def
 |----|----|
 |Language|Monkey C|
   
-## Comming soon  
+## Coming soon  
   
 - Adding custom notification time
 - Changing or adapting to watch language
