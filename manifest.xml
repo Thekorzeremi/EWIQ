@@ -1,5 +1,5 @@
 <iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
-    <iq:application entry="EWIQApp" id="7424fd22-cd8f-4688-b6d6-94627e3bb2a5" minApiLevel="4.0.0" name="Evening Report" type="widget">
+    <iq:application entry="EWIQApp" id="7424fd22-cd8f-4688-b6d6-94627e3bb2a5" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.0.0" name="@Strings.AppName" type="widget">
         <iq:products>
             <iq:product id="fr165"/>
         </iq:products>
