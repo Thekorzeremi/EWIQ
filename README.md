@@ -30,3 +30,9 @@ When it's evening notification time (you can change these in settings later, def
 ## Supported devices  
   
 - Garmin Forerunner 165
+  
+## License
+This project is licensed under the GNU General Public License v3.0 — see the [LICENSE](LICENSE) file for details.
+  
+## Author  
+Thekorzeremi
