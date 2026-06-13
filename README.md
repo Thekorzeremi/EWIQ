@@ -6,6 +6,8 @@ Evening Widget IQ is a Monkey C program for garmin watches to bring evening-repo
   
 When it's evening notification time (you can change these in settings later, default 8pm), report automatically shows on your watch with these informations :  
   
+[![wakatime](https://wakatime.com/badge/user/bd983427-c491-4a42-8cb8-c95de187e70a/project/930edbcb-6fd9-4252-a405-6c91d370c957.svg)](https://wakatime.com/badge/user/bd983427-c491-4a42-8cb8-c95de187e70a/project/930edbcb-6fd9-4252-a405-6c91d370c957)
+
 |Screen|Infos|
 |-----|-----|
 |1|Current steps - Goal - %|
