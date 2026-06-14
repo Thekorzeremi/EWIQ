@@ -173,6 +173,11 @@ class EWIQDelegate extends WatchUi.BehaviorDelegate {
         return false;
     }
 
+    function onMenu() as Boolean {
+      showSettingsMenu();
+      return true;
+    }
+
     function onNextPage() as Boolean {
         if (_view.page >= 1 && _view.page < 3) {
             _view.page++;
