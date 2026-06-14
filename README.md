@@ -25,7 +25,6 @@ When it's evening notification time (you can change these in settings later, def
   
 ## Coming soon  
   
-- Adding custom notification time
 - Changing or adapting to watch language
 - Other datas
   
